@@ -1,3 +1,20 @@
+# 快速开始
+
+```sh
+#sources.list 取消注释源代码（dev）（如需）
+apt update # 30MB
+apt install libelf-dev #or: libelf-devel or: elfutils-libelf-devel 
+unzip tty0tty-master.zip #解压tty0tty源代码压缩包
+cd tty0tty-1.2/module
+make
+sudo cp tty0tty.ko /lib/modules/$(uname -r)/kernel/drivers/misc/
+sudo depmod
+sudo modprobe tty0tty
+sudo chmod 666 /dev/tnt*
+echo "tty0tty" | sudo tee -a /etc/modules
+```
+
+现在， /dev/ 里应该有多个 tnt 开头的设备了。
 
 # tty0tty - linux null modem emulator v1.2 
 
