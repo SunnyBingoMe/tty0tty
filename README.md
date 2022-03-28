@@ -54,7 +54,7 @@ Download the tty0tty package from one of these sources:
 Clone the repo https://github.com/freemed/tty0tty
 
 ```
-git clone https://github.com/freemed/tty0tty
+git clone https://github.com/SunnyBingoMe/tty0tty
 ```
 
 Extract it
