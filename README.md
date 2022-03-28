@@ -51,10 +51,9 @@ The tty0tty directory tree is divided in:
 ## Installation:
 
 Download the tty0tty package from one of these sources:
-Clone the repo https://github.com/freemed/tty0tty
 
 ```
-git clone https://github.com/SunnyBingoMe/tty0tty
+git clone https://github.com/SunnyBingoMe/tty0tty # fixed a compile issue
 ```
 
 Extract it
